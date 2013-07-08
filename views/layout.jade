@@ -4,16 +4,18 @@ html
 		title= title
 		link(rel='stylesheet', href='/stylesheets/style.css')
 		link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+		link(rel='stylesheet', href='/stylesheets/bootstrap-responsive.css')
 	
 	body
 		nav.navbar.navbar-inverse.navbar-fixed-top
 			div.navbar-inner
-				ul.nav
-					li
-						a(href="/") Home
-					li
-						a(href="/about") About
-					li
-						a(href="/contact") Contact
-		div#content
+				div.container
+					ul.nav
+						li
+							a(href="/") Home
+						li
+							a(href="/about") About
+						li
+							a(href="/contact") Contact
+		div.container
 			block content
