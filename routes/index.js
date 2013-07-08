@@ -4,7 +4,7 @@
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: 'HoffIT' });
+  res.render('index', { title: 'Hoff IT' });
 };
 
 
@@ -13,7 +13,7 @@ exports.index = function(req, res){
  */
 
 exports.search = function(req, res){
-  res.render('search', { title: 'HoffIT' });
+  res.render('search', { title: 'Hoff IT' });
 };
 
 /*
@@ -21,5 +21,5 @@ exports.search = function(req, res){
  */
 
 exports.contact = function(req, res){
-  res.render('contact', { title: 'HoffIT' });
+  res.render('contact', { title: 'Hoff IT' });
 };
