@@ -12,8 +12,8 @@ exports.index = function(req, res){
  * GET About page.
  */
 
-exports.about = function(req, res){
-  res.render('about', { title: 'HoffIT' });
+exports.search = function(req, res){
+  res.render('search', { title: 'HoffIT' });
 };
 
 /*
